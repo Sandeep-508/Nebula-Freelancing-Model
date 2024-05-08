@@ -101,6 +101,21 @@
     background: var(--prop_sec_back);
 }
 
+.max_w_social_text {
+    max-width: 700px;
+    min-height: 108px;
+}
+
+.box_social_post {
+    max-width: 420px;
+    max-height: 124px;
+    padding: 30px 20px 30px 20px;
+    border-radius: 24px;
+    border: 1.12px solid var(--border-color);
+    background: var(--sec-back-color);
+    margin-top: 30px;
+}
+
 .box_texture {
     max-width: 1306px;
     background: var(--sec-back-color);
@@ -131,6 +146,27 @@
     height: 190px;
 }
 
+.box_review {
+    max-width: 385px;
+    min-height: 278px;
+    padding: 30px 26px 30px 26px;
+    border-radius: 20px;
+    background: var(--sec-back-color);
+    border: 1.12px solid var(--border-color)
+}
+
+.cont_review_prop {
+    padding: 44px 43px 44px 43px;
+    border-radius: 24px;
+    border: 1.12px solid var(--border-color);
+    background: var(--sec-back-color);
+}
+
+.max_w_footer_text {
+    max-width: 1075px;
+    min-height: auto;
+}
+
 /* <-----------------------------------------------------------spacings ----------------------------------------------------------------> */
 
 /* normal spacing */
@@ -148,12 +184,26 @@
     margin-bottom: 40px;
 }
 
+.my_footer_media {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 .pt_media_work_image {
     padding-top: 28px;
 }
 
+.gap_media_post {
+    gap: 30px;
+}
+
 .mt_media_col_media {
     margin-top: 30px;
+}
+
+.my_review_box_text {
+    margin-top: 28px;
+    margin-bottom: 10px;
 }
 
 .mt_media_col_prop {
@@ -170,6 +220,10 @@
 
 .pb_media_text_work {
     padding-bottom: 20px;
+}
+
+.mt_review_col {
+    margin-top: 30px;
 }
 
 .gap_50px {
@@ -208,11 +262,20 @@
     padding-bottom: 62px;
 }
 
+.mt_media_review {
+    margin-top: 60px;
+}
+
 /* section spacing */
 
 .py_hero {
     padding-top: 100px;
     padding-bottom: 139px;
+}
+
+.py_accordion {
+    padding-top: 113px;
+    padding-bottom: 144px;
 }
 
 .py_banner {
@@ -228,6 +291,16 @@
 .py_texture_sec {
     padding-top: 140px;
     padding-bottom: 105px;
+}
+
+.py_review {
+    padding-top: 105px;
+    padding-bottom: 148px;
+}
+
+.py_plan_sec {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 /* <-----------------------------------------------------------btn changes ----------------------------------------------------------------> */
@@ -328,5 +401,48 @@
 }
 
 /* <----------------------------------------------------------- z-indexes ----------------------------------------------------------------> */
+
+/* <----------------------------------------------------------- Accordion ----------------------------------------------------------------> */
+
+.brdr {
+    border: 1px solid var(--border-color);
+}
+
+.accoridon_items {
+    margin-top: 30px;
+}
+
+.disp_text {
+    display: none;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+.click_btn {
+    padding-top: 32px;
+    padding-bottom: 32px !important;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.svg_icon {
+    width: 50.66px;
+    height: 50.66px;
+    background: #606060;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accoridon_items {
+    max-width: 1320px;
+    min-height: auto;
+    gap: 182px;
+    border-radius: 24px;
+    border: 1.12px 0px 0px 0px;
+    opacity: 0px;
+}
 
 /* <----------------------------------------------------------- animated menuicon ----------------------------------------------------------------> */

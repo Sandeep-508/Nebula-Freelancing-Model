@@ -51,38 +51,52 @@ menuicon.addEventListener("click", () => {
 
 
 
-// // accordion
+// accordion
 
-// let accordion_item = document.querySelectorAll(".accoridon_items");
-// let svg_icon = document.querySelector(".svg_icon");
-// let disp_text = document.querySelector(".disp_text");
-// disp_text.style.display = "flex";
-// svg_icon.style.transform = "rotate(180deg)";
+let accordion_item = document.querySelectorAll(".accoridon_items");
+let svg_icon = document.querySelector(".svg_icon");
+let disp_text = document.querySelector(".disp_text");
+disp_text.style.display = "flex";
+svg_icon.innerHTML = `<svg width="30" height="15" viewBox="0 0 14 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 2.5H8C8 2.5 8 2.5 7.9321 2.5C7.70711 2.5 8.26522 2.5 8 2.5C7.73478 2.5 7.70711 2.5 7.5 2.5C7 2.5 7 2.5 7 2.5H6H1C0.734784 2.5 0.48043 2.39464 0.292893 2.20711C0.105357 2.01957 0 1.76522 0 1.5C0 1.23478 0.105357 0.98043 0.292893 0.792893C0.48043 0.605357 0.734784 0.5 1 0.5H6H6.5C7 0.5 6.73478 0.503254 7 0.503254C7.26522 0.503254 6.5 0.503254 7 0.5C7 0.5 7.5 0.5 7.70711 0.5H8H13C13.2652 0.5 13.5196 0.605357 13.7071 0.792893C13.8946 0.98043 14 1.23478 14 1.5C14 1.76522 13.8946 2.01957 13.7071 2.20711C13.5196 2.39464 13.2652 2.5 13 2.5Z" fill="black"/>
+</svg>`;
 
-// accordion_item.forEach(otherElement => {
-//     let svg_icon = otherElement.querySelector(".svg_icon");
-//     let disp_text = otherElement.querySelector(".disp_text");
-//     let clickBtn = otherElement.querySelector(".click_btn");
-//     clickBtn.addEventListener("click", () => {
-//         accordion_item.forEach(itm => {
-//             if (itm !== otherElement) {
-//                 let svg_icon = itm.querySelector(".svg_icon");
-//                 let disp_text = itm.querySelector(".disp_text");
-//                 disp_text.style.display = "none";
-//                 svg_icon.style.transform = "rotate(0deg)";
-//             }
-//         });
-//         let text_prop = window.getComputedStyle(disp_text).display;
-//         if (text_prop === "none") {
-//             disp_text.style.display = "flex";
-//             svg_icon.style.transform = "rotate(180deg)";
-//         } else {
-//             disp_text.style.display = "none";
-//             svg_icon.style.transform = "rotate(0deg)";
-//         }
-//     });
+accordion_item.forEach(otherElement => {
+    let svg_icon = otherElement.querySelector(".svg_icon");
+    let disp_text = otherElement.querySelector(".disp_text");
+    let clickBtn = otherElement.querySelector(".click_btn");
+    clickBtn.addEventListener("click", () => {
+        accordion_item.forEach(itm => {
+            if (itm !== otherElement) {
+                let svg_icon = itm.querySelector(".svg_icon");
+                let disp_text = itm.querySelector(".disp_text");
+                disp_text.style.display = "none";
+                svg_icon.innerHTML = `<svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M28.1667 17.3333H17.3333V28.1667C17.3333 28.7413 17.1051 29.2924 16.6987 29.6987C16.2924 30.1051 15.7413 30.3333 15.1667 30.3333C14.592 30.3333 14.0409 30.1051 13.6346 29.6987C13.2283 29.2924 13 28.7413 13 28.1667V17.3333H2.16667C1.59203 17.3333 1.04093 17.1051 0.634602 16.6987C0.228274 16.2924 0 15.7413 0 15.1667C0 14.592 0.228274 14.0409 0.634602 13.6346C1.04093 13.2283 1.59203 13 2.16667 13H13V2.16667C13 1.59203 13.2283 1.04093 13.6346 0.634601C14.0409 0.228273 14.592 0 15.1667 0C15.7413 0 16.2924 0.228273 16.6987 0.634601C17.1051 1.04093 17.3333 1.59203 17.3333 2.16667V13H28.1667C28.7413 13 29.2924 13.2283 29.6987 13.6346C30.1051 14.0409 30.3333 14.592 30.3333 15.1667C30.3333 15.7413 30.1051 16.2924 29.6987 16.6987C29.2924 17.1051 28.7413 17.3333 28.1667 17.3333Z"
+                                        fill="black" />
+                                </svg>`;
+            }
+        });
+        let text_prop = window.getComputedStyle(disp_text).display;
+        if (text_prop === "none") {
+            disp_text.style.display = "flex";
+            svg_icon.innerHTML = `<svg width="30" height="15" viewBox="0 0 14 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 2.5H8C8 2.5 8 2.5 7.9321 2.5C7.70711 2.5 8.26522 2.5 8 2.5C7.73478 2.5 7.70711 2.5 7.5 2.5C7 2.5 7 2.5 7 2.5H6H1C0.734784 2.5 0.48043 2.39464 0.292893 2.20711C0.105357 2.01957 0 1.76522 0 1.5C0 1.23478 0.105357 0.98043 0.292893 0.792893C0.48043 0.605357 0.734784 0.5 1 0.5H6H6.5C7 0.5 6.73478 0.503254 7 0.503254C7.26522 0.503254 6.5 0.503254 7 0.5C7 0.5 7.5 0.5 7.70711 0.5H8H13C13.2652 0.5 13.5196 0.605357 13.7071 0.792893C13.8946 0.98043 14 1.23478 14 1.5C14 1.76522 13.8946 2.01957 13.7071 2.20711C13.5196 2.39464 13.2652 2.5 13 2.5Z" fill="black"/>
+</svg>`;
+        } else {
+            disp_text.style.display = "none";
+            svg_icon.innerHTML = `<svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M28.1667 17.3333H17.3333V28.1667C17.3333 28.7413 17.1051 29.2924 16.6987 29.6987C16.2924 30.1051 15.7413 30.3333 15.1667 30.3333C14.592 30.3333 14.0409 30.1051 13.6346 29.6987C13.2283 29.2924 13 28.7413 13 28.1667V17.3333H2.16667C1.59203 17.3333 1.04093 17.1051 0.634602 16.6987C0.228274 16.2924 0 15.7413 0 15.1667C0 14.592 0.228274 14.0409 0.634602 13.6346C1.04093 13.2283 1.59203 13 2.16667 13H13V2.16667C13 1.59203 13.2283 1.04093 13.6346 0.634601C14.0409 0.228273 14.592 0 15.1667 0C15.7413 0 16.2924 0.228273 16.6987 0.634601C17.1051 1.04093 17.3333 1.59203 17.3333 2.16667V13H28.1667C28.7413 13 29.2924 13.2283 29.6987 13.6346C30.1051 14.0409 30.3333 14.592 30.3333 15.1667C30.3333 15.7413 30.1051 16.2924 29.6987 16.6987C29.2924 17.1051 28.7413 17.3333 28.1667 17.3333Z"
+                                        fill="black" />
+                                </svg>`;
+        }
+    });
 
-// });
+});
 
 // // slick sldier
 
