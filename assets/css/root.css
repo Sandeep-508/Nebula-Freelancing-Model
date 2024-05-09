@@ -894,6 +894,112 @@ a {
         margin-top: 40px;
         margin-bottom: 20px;
     }
+
+    .fs_heading_plan_3 {
+        font-size: var(--fs-24);
+        line-height: var(--lh-36);
+    }
+
+    .fs_sub_text_plan_3 {
+        font-size: var(--fs-20);
+        line-height: var(--lh-32);
+    }
+
+    .fs_lh_change_intro {
+        font-size: var(--fs-16);
+        line-height: var(--lh-26);
+    }
+
+    .media_changes_heading {
+        font-size: var(--fs-55);
+        line-height: var(--lh-64);
+    }
+
+    .media_changes_heading_intro {
+        font-size: var(--fs-40);
+        line-height: var(--lh-45);
+    }
+
+    .sub_text_media {
+        font-size: var(--fs-28);
+        line-height: var(--lh-36);
+    }
+
+    .gift_box {
+        width: 128px !important;
+        height: 128px !important;
+    }
+
+    .work_text_media {
+        font-size: var(--fs-40);
+        line-height: var(--lh-64);
+    }
+
+    .media_changes_heading_prop {
+        font-size: var(--fs-45);
+        line-height: var(--lh-55);
+    }
+
+    /* section spacing adjustments */
+
+
+    .py_hero {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .py_banner {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .py_stars {
+        padding-top: 80px;
+        padding-bottom: 94px;
+    }
+
+    .py_plans {
+        padding-top: 65px;
+        padding-bottom: 80px;
+    }
+
+    .py_texture_sec {
+        padding-top: 80px;
+        padding-bottom: 55px;
+    }
+
+    .py_review {
+        padding-top: 92px;
+        padding-bottom: 67px;
+    }
+
+    .mt_media_review {
+        margin-top: 40px;
+    }
+
+    .py_accordion {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .pt_media_work {
+        padding-top: 40px;
+    }
+
+    .fs_heading_footer {
+        font-size: var(--fs-40);
+        line-height: var(--lh-60);
+    }
+
+    .max_w_heading {
+        max-width: 760px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .box_h_media {
+        min-height: 1046px;
+    }
 }
 
 /*-------------------------------------------------------------------- TABLET VIEW ------------------------------------------------------------------------------*/
@@ -911,6 +1017,10 @@ a {
         padding-top: 24px;
         padding-bottom: 24px;
     }
+
+    .max_w_heading {
+        max-width: 1024px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -925,33 +1035,23 @@ a {
         padding-bottom: 80px;
     }
 
-    .media_changes_heading {
-        font-size: var(--fs-55);
-        line-height: var(--lh-64);
-    }
-
-    .sub_text_media {
-        font-size: var(--fs-28);
-        line-height: var(--lh-36);
-    }
-
     .fs_lh_change {
         font-size: var(--fs-16);
         line-height: var(--lh-26);
     }
 
     .login {
-        padding-top: 16px !important;
-        padding-bottom: 16px !important;
-        padding-left: 50px !important;
-        padding-right: 50px !important;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .plan_button {
-        padding-top: 16px !important;
-        padding-bottom: 16px !important;
-        padding-left: 50px !important;
-        padding-right: 50px !important;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .py_text_media {
@@ -968,37 +1068,16 @@ a {
         min-height: 104px;
     }
 
-    .media_changes_heading_intro {
-        font-size: var(--fs-40);
-        line-height: var(--lh-45);
-    }
-
-    .fs_lh_change_intro {
-        font-size: var(--fs-16);
-        line-height: var(--lh-26);
-    }
-
-    .work_text_media {
-        font-size: var(--fs-40);
-        line-height: var(--lh-64);
-    }
-
     .pt_media_text {
         padding-top: 16px;
     }
 
-    .gift_box {
-        width: 128px !important;
-        height: 128px !important;
-    }
-
-    .media_changes_heading_prop {
-        font-size: var(--fs-45);
-        line-height: var(--lh-55);
-    }
-
     .box_review {
         padding: 30px 18px 30px 18px;
+    }
+
+    .box_price {
+        min-height: auto;
     }
 }
 
@@ -1015,10 +1094,17 @@ a {
 
 @media (max-width: 768px) {
     .p_media_row_intro {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+
+    .box_price {
+        max-width: 100%;
+        width: 100%;
+        padding-left: 18px;
+        padding-right: 18px;
     }
 
     .d_max_md_none {
@@ -1046,6 +1132,11 @@ a {
         font-size: var(--fs-28);
     }
 
+    .fs_heading_footer {
+        font-size: var(--fs-30);
+        line-height: var(--lh-36);
+    }
+
     .fs_sub_text_work {
         font-size: var(--fs-20);
         line-height: var(--lh-30);
@@ -1058,6 +1149,14 @@ a {
 
     .d_max_none {
         display: none;
+    }
+
+    .pt_media_work {
+        padding-top: 30px;
+    }
+
+    .mb_max_Sm {
+        margin-bottom: 0 !important;
     }
 
     .wh_max_xl_100 {
@@ -1075,8 +1174,8 @@ a {
     }
 
     .star_sec_prop {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 
     .box_plan {
@@ -1140,7 +1239,10 @@ a {
     }
 
     .cont_review_prop {
-        padding: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 
     .fs_lh_accordion {
@@ -1179,6 +1281,48 @@ a {
 }
 
 @media (max-width: 576px) {
+    .py_hero {
+        padding-top: 35px;
+    }
+
+    .py_banner {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .py_stars {
+        padding-top: 25px;
+        padding-bottom: 60px;
+    }
+
+    .py_plans {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .py_texture_sec {
+        padding-top: 80px;
+        padding-bottom: 45px;
+    }
+
+    .py_review {
+        padding-top: 53px;
+        padding-bottom: 25px;
+    }
+
+    .mt_media_review {
+        margin-top: 30px;
+    }
+
+    .py_accordion {
+        padding-top: 39px;
+        padding-bottom: 30px;
+    }
+
+    .box_texture {
+        padding: 30px 26px 30px 26px;
+    }
+
     .display_changes_2 {
         display: none !important;
     }
@@ -1240,6 +1384,20 @@ a {
 
     .third_line {
         top: -15px !important;
+    }
+
+    .login {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .plan_button {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 18px;
+        padding-right: 18px;
     }
 }
 

@@ -179,10 +179,15 @@
 
 .box_price {
     max-width: 420px;
+    min-height: 937px;
     padding: 24px 23px 24px 23px;
     border-radius: 24px;
     background: var(--sec-back-color);
     border: 1.12px solid var(--border-color);
+}
+
+.max_h_media {
+    max-height: 942px;
 }
 
 .price_image_box {
@@ -235,6 +240,20 @@
 
 .gap_media_plan_3 {
     gap: 13px;
+}
+
+.my_line_3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.my_text_3 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.pb_media_text_3 {
+    padding-bottom: 52px;
 }
 
 .gap_media_plan {
@@ -340,6 +359,11 @@
     padding-bottom: 140px;
 }
 
+.py_plans {
+    padding-top: 103px;
+    padding-bottom: 140px;
+}
+
 .py_stars {
     padding-top: 108px;
     padding-bottom: 140px;
@@ -355,10 +379,10 @@
     padding-bottom: 148px;
 }
 
-.py_plan_sec {
+/* .py_plan_sec {
     padding-top: 80px;
     padding-bottom: 80px;
-}
+} */
 
 /* <-----------------------------------------------------------btn changes ----------------------------------------------------------------> */
 
@@ -457,6 +481,28 @@
     margin: 0 -10px;
 }
 
+.slick-dots li button {
+    display: none !important;
+}
+
+.slick-dots li {
+    width: 20px;
+    height: 10px;
+    border-radius: 1000px;
+    background: #0B243D;
+}
+
+.slick-dots li.slick-active {
+    width: 35px;
+    height: 10px;
+    border-radius: 1000px;
+    background: #017EFF;
+}
+
+.slick-dots {
+    bottom: -55px;
+}
+
 /* <----------------------------------------------------------- z-indexes ----------------------------------------------------------------> */
 
 /* <----------------------------------------------------------- Accordion ----------------------------------------------------------------> */
@@ -496,9 +542,9 @@
 .accoridon_items {
     max-width: 1320px;
     min-height: auto;
-    gap: 182px;
     border-radius: 24px;
-    border: 1.12px 0px 0px 0px;
+    border: 1.12px solid var(--border-color);
+    background: var(--sec-back-color);
     opacity: 0px;
 }
 
