@@ -36,6 +36,7 @@
     --border-color: #3D3D3D;
     --sec-back-color: #161616;
     --prop_sec_back: #212121;
+    --text_light_black_color: #666666;
 
 
     /* font-family */
@@ -84,6 +85,7 @@
     --fs-36: 36px;
     --fs-40: 40px;
     --fs-43: 43px;
+    --fs-44: 44px;
     --fs-45: 45px;
     --fs-48: 48px;
     --fs-50: 50px;
@@ -125,6 +127,7 @@
     --lh-45: 45px;
     --lh-46: 46px;
     --lh-49: 49px;
+    --lh-50: 50px;
     --lh-54: 54px;
     --lh-64: 64px;
     --lh-56: 56px;
@@ -431,6 +434,14 @@
 
 .lh-45 {
     line-height: var(--lh-45);
+}
+
+.fs-44 {
+    font-size: var(--fs-44);
+}
+
+.lh-50 {
+    line-height: var(--lh-50);
 }
 
 .lh-68 {
@@ -839,8 +850,51 @@ a {
         padding-right: 20px;
     }
 
-}
+    .price_image_box {
+        width: 155px !important;
+        height: 155px !important;
+    }
 
+    .fs_heading_plan {
+        font-size: var(--fs-28);
+        line-height: var(--lh-36);
+    }
+
+    .fs_sub_text_1 {
+        font-size: var(--fs-16);
+        line-height: var(--lh-21);
+    }
+
+    .fs_sub_text_2 {
+        font-size: var(--fs-24);
+        line-height: var(--lh-36);
+    }
+
+    .fs_sub_text_3 {
+        font-size: var(--fs-16);
+        line-height: var(--lh-26);
+    }
+
+    .btn_plan {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .fs_sub_text_4 {
+        font-size: var(--fs-24);
+    }
+
+    .mt_media_img {
+        margin-top: 20px;
+    }
+
+    .my_line {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+}
 
 /*-------------------------------------------------------------------- TABLET VIEW ------------------------------------------------------------------------------*/
 
