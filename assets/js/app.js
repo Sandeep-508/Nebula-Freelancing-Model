@@ -98,44 +98,6 @@ accordion_item.forEach(otherElement => {
 
 });
 
-// // slick sldier
-
-// $('.slider').slick({
-//     dots: false,
-//     infinite: true,
-//     speed: 300,
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//     prevArrow: ".prev",
-//     nextArrow: ".next",
-//     responsive: [
-//         {
-//             breakpoint: 1024,
-//             settings: {
-//                 slidesToShow: 1,
-//                 slidesToScroll: 1,
-//                 infinite: true,
-//                 dots: false
-//             }
-//         },
-//         {
-//             breakpoint: 600,
-//             settings: {
-//                 slidesToShow: 1,
-//                 slidesToScroll: 1
-//             }
-//         },
-//         {
-//             breakpoint: 480,
-//             settings: {
-//                 slidesToShow: 1,
-//                 slidesToScroll: 1
-//             }
-//         }
-//     ]
-// });
-
-
 // // preloader
 
 // let preloader = document.querySelector(".preloader");
@@ -145,44 +107,44 @@ accordion_item.forEach(otherElement => {
 // }, 5000);
 
 
-// // scroll to top
+// scroll to top
 
-// let scroll_btn = document.querySelector(".scroll_top");
-// let scroll_pt = 200;
+let scroll_btn = document.querySelector(".scroll_top");
+let scroll_pt = 200;
 
-// scroll_btn.classList.add("d-none");
-// window.addEventListener("scroll", () => {
-//     if (window.scrollY > scroll_pt) {
-//         scroll_btn.classList.remove("d-none");
-//     } else {
-//         scroll_btn.classList.add("d-none");
-//     }
-//     scroll_btn.addEventListener("click", () => {
-//         window.scrollTo({
-//             top: 0,
-//             behavior: "smooth",
-//         });
-//     });
-// });
+scroll_btn.classList.add("d-none");
+window.addEventListener("scroll", () => {
+    if (window.scrollY > scroll_pt) {
+        scroll_btn.classList.remove("d-none");
+    } else {
+        scroll_btn.classList.add("d-none");
+    }
+    scroll_btn.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    });
+});
 
-// // AOS Animation
+// AOS Animation
 
-// AOS.init({
-//     once: true,
-//     duration: 1200,
-// });
+AOS.init({
+    once: true,
+    duration: 1200,
+});
 
 
-// // progress
+// progress
 
-// window.onscroll = function () { myFunction() };
+window.onscroll = function () { myFunction() };
 
-// function myFunction() {
-//     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-//     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-//     var scrolled = (winScroll / height) * 100;
-//     document.getElementById("myBar").style.width = scrolled + "%";
-// }
+function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+}
 
 
 // const num1 = [1, 3, 4, 5, 6];

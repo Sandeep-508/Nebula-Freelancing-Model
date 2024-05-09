@@ -26,7 +26,7 @@
 
     <!-- progress bar -->
 
-    <div class="header">
+    <div class="headers">
         <div class="progress-container">
             <div class="progress-bar" id="myBar"></div>
         </div>
@@ -35,11 +35,14 @@
     <!-- Hero section -->
 
     <header class="d-flex flex-column position-relative">
-        <nav>
+        <nav class="mt-3">
             <div class="container back_color">
                 <div class="d-flex align-items-sm-center justify-content-sm-between justify-content-end">
-                    <div class="cursor w_h_changes d-sm-flex d-none align-items-center justify-content-center">
-                        <img src="./assets/images/SVG/nav_heading.svg" alt="upside arrow" class="w-100 h-100">
+                    <div class="cursor w_h_changes d-flex align-items-center justify-content-center">
+                        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.8332 32.5L25.9998 17.3333L41.1665 32.5" stroke="#161616" stroke-width="7.22222"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
                     </div>
                     <div class="d-flex align-items-center gap_50px max_lg_view">
                         <a href="#home" class="fm fw-400 fs-24 text-white nav_link">How It Works</a>
@@ -67,7 +70,8 @@
                     class="w-100 h-100">
             </div>
             <div class="container_diff_hero d-flex align-items-center justify-content-center flex-column">
-                <p class="fm fw-700 fs-70 lh-90 text-center text-white mb-0 media_changes_heading max_w_heading">Designing
+                <p class="fm fw-700 fs-70 lh-90 text-center text-white mb-0 media_changes_heading max_w_heading">
+                    Designing
                     Flyers for <span class="lg_text">Small
                         and Growing Businesses</span></p>
                 <p class="fm fw-400 fs-40 lh-46 text_light_color text-center mb-0 py_text_media sub_text_media">Your
@@ -91,7 +95,7 @@
             <div class="container intro_prop">
                 <div class="row justify-content-between p_media_row_intro flex-md-row flex-column-reverse">
                     <div
-                        class="col-xl-7 col-md-8 d-flex flex-column align-items-start justify-content-center py_media_col mt_sm_30px">
+                        class="col-xl-7 col-md-8 d-flex flex-column align-items-start justify-content-center py_media_col mt_md_30px">
                         <p class="fm fw-700 fs-64 lh-71 text-white mb-0 media_changes_heading_intro">Nice to meet
                             you,<br>
                             I’m
@@ -1331,6 +1335,14 @@
             </div>
         </section>
     </footer>
+
+    <!-- scroll to top -->
+
+    <section class="scroll_top position-fixed shadow cursor z-50">
+        <div class="scroll_box">
+            <img src="./assets/images/svg/scroll_top_icon.svg" alt="scroll to top icon" class="w-100 h-100">
+        </div>
+    </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="

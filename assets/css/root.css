@@ -1100,6 +1100,10 @@ a {
         padding-bottom: 20px;
     }
 
+    .mt_sm_30px {
+        margin-top: 30px;
+    }
+
     .box_price {
         max-width: 100%;
         width: 100%;
@@ -1373,10 +1377,6 @@ a {
         margin-top: 16px;
     }
 
-    .mt_sm_30px {
-        margin-top: 30px;
-    }
-
     .work_text_media {
         font-size: var(--fs-30);
         line-height: var(--lh-36);
@@ -1398,6 +1398,13 @@ a {
         padding-bottom: 14px;
         padding-left: 18px;
         padding-right: 18px;
+    }
+
+    .scroll_top,
+    .scroll_box {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 50% !important;
     }
 }
 
