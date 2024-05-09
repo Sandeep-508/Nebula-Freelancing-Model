@@ -728,7 +728,7 @@ a {
 
     .wh_changes_media {
         width: 106px;
-        height: 100px;
+        height: 85px;
     }
 
     .my_media_plan {
@@ -773,6 +773,16 @@ a {
     .w_h_texture_change {
         max-width: 260px;
         min-height: 234px;
+    }
+
+    .my_line_3 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .my_text_3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .box_texture {
@@ -994,6 +1004,12 @@ a {
     .max_w_heading {
         max-width: 760px;
     }
+
+    .p_media_work {
+        padding-top: 30px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -1100,7 +1116,7 @@ a {
         padding-bottom: 20px;
     }
 
-    .mt_sm_30px {
+    .mt_md_30px {
         margin-top: 30px;
     }
 
@@ -1185,6 +1201,7 @@ a {
     .box_plan {
         max-width: 100%;
         min-height: auto;
+        padding: 24px 12px 36px 12px;
     }
 
     .img_box {
