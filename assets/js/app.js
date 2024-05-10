@@ -154,3 +154,14 @@ function myFunction() {
 // let ex = [1, 1, 3, 312, [32, 432, 42, [45, 5333, 534, 56], 532], 53425];
 // let ex2 = ex.flat(Infinity);
 // console.log(ex2);
+
+// num1()
+
+// let num1 = function () {
+//     console.log("aman");
+// }
+// num2()
+
+// function num2() {
+//     console.log("sanddep")
+// }

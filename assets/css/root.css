@@ -1010,6 +1010,42 @@ a {
         padding-left: 24px;
         padding-right: 24px;
     }
+
+    .star_sec_prop {
+        border-radius: 20px;
+    }
+
+    .login {
+        font-size: var(--fs-18);
+    }
+
+    .plan_button {
+        font-size: var(--fs-18);
+    }
+
+    .max_w_intro_text {
+        max-width: 645px;
+        min-height: auto;
+    }
+
+    .max_w_footer_text {
+        max-width: 768px;
+        min-height: auto;
+    }
+
+    .max_w_social_text {
+        max-width: 700px;
+        min-height: 108px;
+    }
+
+    .sub_text_max_w {
+        max-width: 768px;
+    }
+
+    .max_w_prop_text {
+        max-width: 768px;
+        min-height: auto;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -1105,6 +1141,10 @@ a {
 
     .d_min_md_none {
         display: none;
+    }
+
+    .align-items-md-unset {
+        align-items: unset;
     }
 }
 
@@ -1238,6 +1278,10 @@ a {
         line-height: var(--lh-20);
     }
 
+    .star_sec_prop {
+        border-radius: 16px;
+    }
+
     .box_social_post {
         max-width: 100%;
         max-height: 93px;
@@ -1299,6 +1343,30 @@ a {
         height: auto;
         padding: 15px;
     }
+
+    .max_w_intro_text {
+        max-width: 576px;
+        min-height: auto;
+    }
+
+    .max_w_footer_text {
+        max-width: 576px;
+        min-height: auto;
+    }
+
+    .max_w_social_text {
+        max-width: 576px;
+        min-height: 108px;
+    }
+
+    .sub_text_max_w {
+        max-width: 576px;
+    }
+
+    .max_w_prop_text {
+        max-width: 576px;
+        min-height: auto;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1333,6 +1401,14 @@ a {
 
     .mt_media_review {
         margin-top: 30px;
+    }
+
+    .login {
+        font-size: var(--fs-18);
+    }
+
+    .plan_button {
+        font-size: var(--fs-18);
     }
 
     .py_accordion {
@@ -1406,15 +1482,15 @@ a {
     .login {
         padding-top: 14px;
         padding-bottom: 14px;
-        padding-left: 18px;
-        padding-right: 18px;
+        padding-left: 44px;
+        padding-right: 44px;
     }
 
     .plan_button {
         padding-top: 14px;
         padding-bottom: 14px;
-        padding-left: 18px;
-        padding-right: 18px;
+        padding-left: 44px;
+        padding-right: 44px;
     }
 
     .scroll_top,

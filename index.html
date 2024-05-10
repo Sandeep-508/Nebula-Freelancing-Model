@@ -241,7 +241,7 @@
 
         <!-- star section -->
 
-        <section class="py_stars px-4">
+        <section class="py_stars px_12px">
             <div class="container star_sec_prop d-flex align-items-center justify-content-center">
                 <div class="row">
                     <div class="col-xxl-4 col-xl-3 col-md-4 d-flex align-items-center justify-content-center">
@@ -1008,7 +1008,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
-                        <div class="box_price d-flex align-items-md-start align-items-center flex-column">
+                        <div class="box_price d-flex align-items-md-unset align-items-center flex-column">
                             <div class="d-flex align-items-center justify-content-center w-100">
                                 <img src="./assets/images/SVG/star_svg.svg" alt="big yellow star"
                                     class="price_image_box">
@@ -1046,7 +1046,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center mt-md-0 mt-4">
-                        <div class="box_price d-flex align-items-md-start align-items-center flex-column">
+                        <div class="box_price d-flex align-items-md-unset align-items-center flex-column">
                             <div class="d-flex align-items-center justify-content-center w-100">
                                 <img src="./assets/images/SVG/rocket_svg.svg" alt="big yellow star"
                                     class="price_image_box">
@@ -1367,12 +1367,22 @@
             slidesToScroll: 1,
             prevArrow: false,
             nextArrow: false,
+            variableWidth: true,
             responsive: [
                 {
                     breakpoint: 768,
                     settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToScroll: 1,
+                        variableWidth: true
+                    }
+                },
+                {
+                    breakpoint: 430,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        variableWidth: false,
                     }
                 }
             ]
