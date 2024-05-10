@@ -149,6 +149,7 @@
     --lh-79: 79px;
     --lh-83: 83px;
     --lh-86: 86px;
+    --lh-90: 90px;
     --lh-96: 96px;
     --lh-100: 100px;
     --lh-188: 188px;
@@ -345,10 +346,6 @@
 
 .lh-38 {
     line-height: var(--lh-38);
-}
-
-.fs-40 {
-    font-size: var(--fs-40);
 }
 
 .fs-72 {
@@ -650,7 +647,11 @@ a {
     }
 
     .menuicon:hover span {
-        background: var(--text_lg);
+        background: var(--color-sky-dark);
+    }
+
+    .btn_change {
+        background: var(--border-color) !important;
     }
 }
 
@@ -1036,12 +1037,12 @@ a {
     }
 
     .max_w_footer_text {
-        max-width: 768px;
+        max-width: 540px;
         min-height: auto;
     }
 
     .max_w_social_text {
-        max-width: 700px;
+        max-width: 520px;
         min-height: 108px;
     }
 
@@ -1053,6 +1054,10 @@ a {
         max-width: 768px;
         min-height: auto;
     }
+
+    .gap_media {
+        gap: 30px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -1063,7 +1068,7 @@ a {
 
 /*-------------------------------------------------------------------- TABLET VIEW ------------------------------------------------------------------------------*/
 
-@media (min-width: 1200px) {
+@media (min-width: 1200.9px) {
     .image_cont {
         width: 475px;
         min-height: 475px;
@@ -1138,6 +1143,11 @@ a {
     .box_price {
         min-height: auto;
     }
+
+    .max_w_footer_text {
+        max-width: 540px;
+        min-height: auto;
+    }
 }
 
 /*---------------------------------------------------------------------- MOBILE VIEW -------------------------------------------------------------------------------*/
@@ -1195,6 +1205,10 @@ a {
         padding-top: 19px;
     }
 
+    .align-items-max-md-center {
+        align-items: center;
+    }
+
     .fs_media_work {
         font-size: var(--fs-28);
     }
@@ -1229,6 +1243,11 @@ a {
     .wh_max_xl_100 {
         width: 207px;
         height: 207px;
+    }
+
+    .w_h_texture_change {
+        max-width: 100%;
+        min-height: auto;
     }
 
     .box_prop {
@@ -1361,11 +1380,6 @@ a {
         min-height: auto;
     }
 
-    .max_w_social_text {
-        max-width: 576px;
-        min-height: 108px;
-    }
-
     .sub_text_max_w {
         max-width: 576px;
     }
@@ -1399,6 +1413,10 @@ a {
     .py_texture_sec {
         padding-top: 80px;
         padding-bottom: 45px;
+    }
+
+    .gap_media {
+        gap: 20px;
     }
 
     .py_review {
