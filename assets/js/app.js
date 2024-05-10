@@ -98,13 +98,25 @@ accordion_item.forEach(otherElement => {
 
 });
 
-// // preloader
+// preloader
 
-// let preloader = document.querySelector(".preloader");
-// preloader.classList.add("top_100");
-// setTimeout(() => {
-//     preloader.classList.add("-top_100");
-// }, 5000);
+let preloader = document.querySelector(".preloader");
+body.style.overflow = "hidden";
+setTimeout(() => {
+    preloader.classList.add("-top-105");
+    body.style.overflow = "auto";
+}, 3000);
+
+// comeback notification
+
+let title = document.title;
+window.addEventListener("blur", () => {
+    document.title = "Come back 😐";
+});
+
+window.addEventListener("focus", () => {
+    document.title = title;
+});
 
 
 // scroll to top
@@ -165,3 +177,10 @@ function myFunction() {
 // function num2() {
 //     console.log("sanddep")
 // }
+
+// function name(nam1, num2, ...numm) {
+//     add = nam1 + num2;
+//     console.log(numm);
+
+// }
+// name("sandeep", "aman", "hsiodvn", "noichwe", "moiwvenoi");
