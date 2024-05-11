@@ -1249,11 +1249,6 @@ a {
         height: 207px;
     }
 
-    .w_h_texture_change {
-        max-width: 100%;
-        min-height: auto;
-    }
-
     .box_prop {
         max-width: 100%;
     }
