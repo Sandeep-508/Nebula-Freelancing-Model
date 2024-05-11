@@ -29,7 +29,7 @@
 
     <!-- preloader -->
 
-    <section class="preloader position-fixed d-flex align-items-center justify-content-center flex-column">
+    <section class="preloader position-fixed d-flex align-items-center justify-content-center flex-column d-none">
         <div class="container_hero">
             <div>
                 <div class="content">
@@ -124,7 +124,7 @@
 
         <!-- intro section -->
 
-        <section class="px-4">
+        <section class="px-4 position-relative z-3">
             <div class="container intro_prop">
                 <div class="row justify-content-between p_media_row_intro flex-md-row flex-column-reverse">
                     <div
@@ -157,7 +157,7 @@
 
         <!-- banner section -->
 
-        <section class="py_banner overflow-hidden">
+        <section class="py_banner overflow-hidden position-relative z-3">
             <div class="container">
                 <div class="row d_block d-none">
                     <div class="col-sm-3" data-aos="flip-left">
@@ -198,8 +198,11 @@
 
         <!-- how it works -->
 
-        <section>
-            <div class="container">
+        <section class="position-relative">
+            <div class="ellipse_work position-absolute">
+                <img src="./assets/images/PNG/ellipse_2.png" alt="random ellipse" class="w-100">
+            </div>
+            <div class="container position-relative z-3">
                 <p class="mb-0 fm fw-700 fs-64 lh-90 text-white text-center work_text_media">How it works</p>
                 <div class="d-grid justify-content-center">
                     <p
@@ -275,7 +278,7 @@
 
         <!-- star section -->
 
-        <section class="py_stars px_12px">
+        <section class="py_stars px_12px position-relative z-3">
             <div class="container star_sec_prop d-flex align-items-center justify-content-center">
                 <div class="row">
                     <div class="col-xxl-4 col-xl-3 col-md-4 d-flex align-items-center justify-content-center"
@@ -294,8 +297,11 @@
 
         <!-- prop section -->
 
-        <section>
-            <div class="container">
+        <section class="position-relative">
+            <div class="ellipse_prop position-absolute">
+                <img src="./assets/images/PNG/small_bus_ellipse.png" alt="random ellipse" class="w-100">
+            </div>
+            <div class="container position-relative z-3">
                 <div class="d-grid justify-content-center">
                     <p
                         class="fm fw-700 fs-70 lh-80 text-center text-white mb-0 media_changes_heading_prop max_w_prop_text">
@@ -633,8 +639,11 @@
 
         <!-- Benifit section -->
 
-        <section class="py_plans">
-            <div class="container">
+        <section class="py_plans position-relative">
+            <div class="ellipse_benifits position-absolute">
+                <img src="./assets/images/PNG/benifits_ellipse.png" alt="random ellipse" class="w-100">
+            </div>
+            <div class="container position-relative z-3">
                 <p class="fm fw-700 fs-64 lh-83 text_heading_color text-center fs_heading_ben">Plan Benefits</p>
                 <div class="d-grid justify-content-center">
                     <p class="fm fw-400 fs-40 lh-60 text_light_color max_w_prop_text text-center fs_sub_heading_ben">
@@ -737,7 +746,7 @@
 
         <!-- recent work -->
 
-        <section>
+        <section class="position-relative z-3">
             <div class="container">
                 <p class="fm fw-700 fs-64 lh-83 text_heading_color text-center fs_heading_ben">Recent Work</p>
                 <div class="d-grid justify-content-center">
@@ -802,8 +811,11 @@
 
         <!-- free flyer texture -->
 
-        <section class="py_texture_sec">
-            <div class="container">
+        <section class="py_texture_sec position-relative">
+            <div class="ellipse_texture position-absolute">
+                <img src="./assets/images/PNG/social_post_section.png" alt="random ellipse" class="w-100">
+            </div>
+            <div class="container position-relative z-3">
                 <div class="box_texture">
                     <div class="row">
                         <div class="col-md-4 d-flex align-items-center justify-content-center" data-aos="flip-down">
@@ -832,7 +844,7 @@
 
         <!-- social post section -->
 
-        <section>
+        <section class="position-relative z-3">
             <div class="container">
                 <div class="d-grid justify-content-center">
                     <p class="max_w_social_text fm fw-700 fs-70 lh-80 mb-0 text_light_color fs_heading_social">Flyers,
@@ -954,8 +966,11 @@
 
         <!-- review section -->
 
-        <section class="py_review px-3">
-            <div class="container cont_review_prop">
+        <section class="py_review px-3 position-relative">
+            <div class="ellipse_review position-absolute">
+                <img src="./assets/images/PNG/ellipse_review.png" alt="random ellipse" class="w-100">
+            </div>
+            <div class="container cont_review_prop position-relative z-3">
                 <div class="d-grid justify-content-center">
                     <p
                         class="fm fw-700 max_w_prop_text fs-70 lh-80 text-center text-white mb-0 fs_media_review_heading">
@@ -1040,7 +1055,7 @@
 
         <!-- price section -->
 
-        <section class="py_plan_sec">
+        <section class="py_plan_sec position-relative z-3">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center"
@@ -1235,10 +1250,17 @@
         </section>
     </main>
 
-    <footer>
-        <section class="py_accordion">
-            <p class="fm fw-700 fs-64 lh-80 text_light_color text-center fs_heading_footer">FAQs</p>
-            <div class="container">
+    <footer class="position-relative">
+        <div class="ellipse_bottom position-absolute">
+            <img src="./assets/images/PNG/ellipse_last.png" alt="random ellipse" class="w-100">
+        </div>
+        <section class="py_accordion position-relative">
+            <div class="ellipse_faq position-absolute">
+                <img src="./assets/images/PNG/ellipse_faq.png" alt="random ellipse" class="w-100">
+            </div>
+            <p class="fm fw-700 fs-64 lh-80 text_light_color text-center fs_heading_footer position-relative z-3">FAQs
+            </p>
+            <div class="container position-relative z-3">
                 <div class="accordion mt-lg-5 mt-md-4">
                     <div class="accoridon_items brdr" data-aos="flip-left">
                         <div
@@ -1359,7 +1381,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="position-relative z-3 min_lg_pb">
             <div class="container" data-aos="fade-up" data-aos-duration="3000">
                 <p class="fm fw-700 fs-64 lh-80 text_light_color text-center fs_footer_media mb-0">Still Have Questions?
                 </p>

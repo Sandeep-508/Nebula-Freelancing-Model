@@ -1091,6 +1091,10 @@ a {
     .min-vh-lg {
         min-height: 100vh;
     }
+
+    .min_lg_pb {
+        padding-bottom: 318px;
+    }
 }
 
 @media (max-width: 991px) {

@@ -424,6 +424,46 @@
     position: relative;
 }
 
+.ellipse_work {
+    right: 0;
+    width: 1012px;
+    height: 1012px;
+    top: -25%;
+}
+
+.ellipse_prop {
+    left: 0;
+    /* height: 1012px;
+    width: 1012px; */
+    top: -30%;
+}
+
+.ellipse_benifits {
+    right: 0;
+    top: -30%;
+}
+
+.ellipse_texture {
+    left: 0;
+    top: -50%;
+}
+
+.ellipse_review {
+    right: 0;
+    top: -50%;
+}
+
+.ellipse_faq {
+    left: 0;
+    top: -50%;
+}
+
+.ellipse_bottom {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /* <-----------------------------------------------------------  Hover Effects ----------------------------------------------------------------> */
 
 
