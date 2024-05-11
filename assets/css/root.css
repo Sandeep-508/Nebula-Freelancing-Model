@@ -661,7 +661,7 @@ a {
     }
 
     .box_price {
-        min-height: 884px   ;
+        min-height: 884px;
     }
 
     .w_h_changes {
@@ -1400,6 +1400,11 @@ a {
     .max_w_prop_text {
         max-width: 576px;
         min-height: auto;
+    }
+
+    .wh_changes_media {
+        width: 150px;
+        height: 150px;
     }
 }
 
