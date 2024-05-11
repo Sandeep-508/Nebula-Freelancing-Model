@@ -660,6 +660,10 @@ a {
         font-size: var(--fs-18);
     }
 
+    .box_price {
+        min-height: 884px   ;
+    }
+
     .w_h_changes {
         width: 70.16px;
         height: 50.16px;
@@ -744,6 +748,16 @@ a {
         margin-bottom: 10px;
     }
 
+    .fs_media_anchor {
+        font-size: var(--fs-24);
+        line-height: var(--lh-36);
+    }
+
+    .fs_media_anchor_1 {
+        font-size: var(--fs-20);
+        line-height: var(--lh-36);
+    }
+
     .img_box {
         min-height: auto;
     }
@@ -789,8 +803,8 @@ a {
     }
 
     .my_text_3 {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .box_texture {
